@@ -3,6 +3,7 @@ import { Todo } from "./Todo";
 import { TodoForm } from "./TodoForm";
 import { v4 as uuidv4 } from "uuid";
 import { EditTodoForm } from "./EditTodoForm";
+import CalendarImg from "../assets/images/Calendar.png";
 
 export const TodoWrapper = () => {
   const [todos, setTodos] = useState([]);
@@ -43,9 +44,12 @@ export const TodoWrapper = () => {
   return (
     <div className="w-screen flex justify-center">
       <div className="w-1/4">
-        <h1 className="text-white text-2xl font-bold my-4 text-center">
-          Get Things Done !
-        </h1>
+        <div className="flex justify-between items-center my-6 bg-zinc-800 rounded-2xl p-6">
+          <img src={CalendarImg} alt="image-calendar" className="w-1/4" />
+          <h1 className="text-white text-2xl mx-7 font-bold">
+            Make Your Activities More Organized !
+          </h1>
+        </div>
         <TodoForm addTodo={addTodo} />
         {/* display todos */}
         {todos.map((todo) =>
