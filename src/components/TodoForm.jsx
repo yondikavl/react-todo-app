@@ -26,7 +26,7 @@ export const TodoForm = ({ addTodo }) => {
       />
       <button
         type="submit"
-        className="flex justify-center items-center focus:outline-none bg-amber-300 text-zinc-900 rounded-lg py-3 px-6 font-bold md:w-1/5 hover:bg-amber-400"
+        className="flex justify-center items-center focus:outline-none bg-amber-300 text-zinc-900 rounded-lg py-3 px-6 font-bold w-1/6 md:w-1/5 hover:bg-amber-400"
       >
         <FontAwesomeIcon icon={faPlus} className="mx-2" />
         <span className="hidden md:block">Add Task</span>
