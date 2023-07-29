@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/react-todo-app/static/css/main.ebce50c0.css",
-    "main.js": "/react-todo-app/static/js/main.6992bf49.js",
+    "main.css": "/react-todo-app/static/css/main.e52e12d2.css",
+    "main.js": "/react-todo-app/static/js/main.71b01479.js",
     "static/js/787.b6086cd3.chunk.js": "/react-todo-app/static/js/787.b6086cd3.chunk.js",
     "static/media/Calendar.png": "/react-todo-app/static/media/Calendar.675feca5463b9e8ce993.png",
     "index.html": "/react-todo-app/index.html",
-    "main.ebce50c0.css.map": "/react-todo-app/static/css/main.ebce50c0.css.map",
-    "main.6992bf49.js.map": "/react-todo-app/static/js/main.6992bf49.js.map",
+    "main.e52e12d2.css.map": "/react-todo-app/static/css/main.e52e12d2.css.map",
+    "main.71b01479.js.map": "/react-todo-app/static/js/main.71b01479.js.map",
     "787.b6086cd3.chunk.js.map": "/react-todo-app/static/js/787.b6086cd3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ebce50c0.css",
-    "static/js/main.6992bf49.js"
+    "static/css/main.e52e12d2.css",
+    "static/js/main.71b01479.js"
   ]
 }
