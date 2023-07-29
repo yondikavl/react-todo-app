@@ -21,12 +21,12 @@ export const TodoForm = ({ addTodo }) => {
         type="text"
         value={value}
         onChange={(e) => setValue(e.target.value)}
-        className="py-3 px-6 w-5/6 md:w-5/6 mr-3 rounded-lg focus:outline-0"
+        className="py-3 px-6 w-5/6 md:w-5/6 mr-3 rounded-xl focus:outline-0"
         placeholder="What is the task today?"
       />
       <button
         type="submit"
-        className="flex justify-center items-center focus:outline-none bg-amber-300 text-zinc-900 rounded-lg py-3 px-6 font-bold w-1/6 md:w-1/5 hover:bg-amber-400"
+        className="flex justify-center items-center focus:outline-none bg-amber-300 text-zinc-900 rounded-xl py-3 px-6 font-bold w-1/6 md:w-1/5 hover:bg-amber-400"
       >
         <FontAwesomeIcon icon={faPlus} className="mx-2" />
         <span className="hidden md:block">Add Task</span>

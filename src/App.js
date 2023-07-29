@@ -2,7 +2,7 @@ import { TodoWrapper } from "./components/TodoWrapper";
 
 const App = () => {
   return (
-    <div className="bg-zinc-900 flex justify-center items-center min-h-screen overflow-hidden">
+    <div className="bg-zinc-900 flex justify-center md:items-center min-h-screen overflow-hidden">
       <TodoWrapper />
     </div>
   );
