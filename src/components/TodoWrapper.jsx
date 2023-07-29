@@ -42,7 +42,7 @@ export const TodoWrapper = () => {
   };
 
   return (
-    <div className="w-screen flex justify-center py-4 md:py-20">
+    <div className="w-screen flex justify-center py-4 md:py-20 mb-auto md:mb-0">
       <div className="w-5/6 md:w-2/4">
         <div className="flex justify-center items-center my-6 bg-zinc-800 rounded-2xl py-6">
           <img
