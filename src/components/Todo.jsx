@@ -5,14 +5,14 @@ import { faTrash } from "@fortawesome/free-solid-svg-icons";
 
 export const Todo = ({ task, deleteTodo, editTodo, toggleComplete }) => {
   return (
-    <div className="text-white bg-zinc-800 my-4 rounded-lg flex justify-between py-3 px-6">
+    <div className="text-white bg-zinc-800 my-4 rounded-xl flex justify-between py-3 px-6">
       <p
-        className={`${task.completed ? "completed" : ""}`}
+        className={`${task.completed ? "completed" : ""} py-3 px-6`}
         onClick={() => toggleComplete(task.id)}
       >
         {task.task}
       </p>
-      <div>
+      <div className="flex justify-center items-center">
         <FontAwesomeIcon
           icon={faPenToSquare}
           onClick={() => editTodo(task.id)}
