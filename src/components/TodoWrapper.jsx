@@ -43,10 +43,14 @@ export const TodoWrapper = () => {
 
   return (
     <div className="w-screen flex justify-center">
-      <div className="w-1/4">
-        <div className="flex justify-between items-center my-6 bg-zinc-800 rounded-2xl p-6">
-          <img src={CalendarImg} alt="image-calendar" className="w-1/4" />
-          <h1 className="text-white text-2xl mx-7 font-bold">
+      <div className="w-5/6 md:w-2/4">
+        <div className="flex justify-center items-center my-6 bg-zinc-800 rounded-2xl py-6">
+          <img
+            src={CalendarImg}
+            alt="image-calendar"
+            className="w-1/3 md:w-1/6"
+          />
+          <h1 className="text-white text-2xl md:text-3xl lg:text-4xl mx-7 font-bold w-1/2">
             Make Your Activities More Organized !
           </h1>
         </div>
