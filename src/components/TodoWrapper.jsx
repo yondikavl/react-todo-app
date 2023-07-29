@@ -41,25 +41,27 @@ export const TodoWrapper = () => {
   };
 
   return (
-    <div>
-      <h1 className="text-white text-2xl font-bold my-4 text-center">
-        Get Things Done !
-      </h1>
-      <TodoForm addTodo={addTodo} />
-      {/* display todos */}
-      {todos.map((todo) =>
-        todo.isEditing ? (
-          <EditTodoForm editTodo={editTask} task={todo} />
-        ) : (
-          <Todo
-            key={todo.id}
-            task={todo}
-            deleteTodo={deleteTodo}
-            editTodo={editTodo}
-            toggleComplete={toggleComplete}
-          />
-        )
-      )}
+    <div className="w-screen flex justify-center">
+      <div className="w-1/4">
+        <h1 className="text-white text-2xl font-bold my-4 text-center">
+          Get Things Done !
+        </h1>
+        <TodoForm addTodo={addTodo} />
+        {/* display todos */}
+        {todos.map((todo) =>
+          todo.isEditing ? (
+            <EditTodoForm editTodo={editTask} task={todo} />
+          ) : (
+            <Todo
+              key={todo.id}
+              task={todo}
+              deleteTodo={deleteTodo}
+              editTodo={editTodo}
+              toggleComplete={toggleComplete}
+            />
+          )
+        )}
+      </div>
     </div>
   );
 };
